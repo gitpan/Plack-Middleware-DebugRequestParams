@@ -32,16 +32,17 @@ no_index:
 provides:
   Plack::Middleware::DebugRequestParams:
     file: lib/Plack/Middleware/DebugRequestParams.pm
-    version: 0.05
+    version: 0.06
 requires:
   Plack::Request: 0
   Text::ASCIITable: 0
+  Text::VisualWidth: 0
   parent: 0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/Cside/Plack-Middleware-DebugRequestParameters/issues
   homepage: https://github.com/Cside/Plack-Middleware-DebugRequestParameters
   repository: git://github.com/Cside/Plack-Middleware-DebugRequestParameters.git
-version: 0.05
+version: 0.06
 x_contributors:
   - 'Syohei YOSHIDA <syohex@gmail.com>'
